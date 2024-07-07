@@ -15,7 +15,7 @@ function verifyUser() {
     };
 
     if (validUsers.hasOwnProperty(username) && validUsers[username] === password) {
-        container.innerHTML = "<h1>Welcome to our website</h1> <a href = 'index.html'>Go back</a>"
+        container.innerHTML = "<h1>Welcome to our website</h1> <a href = './index.html'>Go back</a>"
     } else {
         display.innerHTML = "Wrong username or password"
         display.style.color = "red"

@@ -1,3 +1,9 @@
+document.addEventListener('keypress', function (event) {
+    if (event.key === 'Enter') {
+        verifyUser();
+    }
+});
+
 function verifyUser() {
     const container = document.querySelector(".login-container")
     const display = document.getElementById("display")
